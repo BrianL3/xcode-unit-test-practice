@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1DF5B75EAC2EFE2498E632D7294803A03F7FC02D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1DF5B75EAC2EFE2498E632D7294803A03F7FC02D" : 0,
+    "186662D6FC8DB4126C43C0DCC5ECC68DC49309F1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7912788C-8CE0-4F2A-AD40-EA63F973F559",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1DF5B75EAC2EFE2498E632D7294803A03F7FC02D" : "PercentageCalculator\/",
+    "186662D6FC8DB4126C43C0DCC5ECC68DC49309F1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PercentageCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PercentageCalculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BrianL3\/DoctorWizard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "186662D6FC8DB4126C43C0DCC5ECC68DC49309F1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BrianL3\/xcode-unit-test-practice",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DF5B75EAC2EFE2498E632D7294803A03F7FC02D"
+    }
+  ]
+}
