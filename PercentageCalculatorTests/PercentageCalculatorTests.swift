@@ -26,7 +26,7 @@ class PercentageCalculatorTests: XCTestCase {
         let p = self.vc.percentage(50, 50)
         XCTAssert(p == 25)
     }
-    
+        
     func testLabelValuesShowedProperly() {
         // access the view property of a viewcontroller to insure it is initialized (do not call loadView)
         let _ = self.vc.view

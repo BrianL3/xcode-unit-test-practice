@@ -13,10 +13,19 @@
 		22325BBF1C62395E006879FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22325BBE1C62395E006879FF /* Assets.xcassets */; };
 		22325BC21C62395E006879FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22325BC01C62395E006879FF /* LaunchScreen.storyboard */; };
 		22325BCD1C62395E006879FF /* PercentageCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22325BCC1C62395E006879FF /* PercentageCalculatorTests.swift */; };
+		FA7C4E1B1D62612000ED8348 /* PercentageCalculatorUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C4E1A1D62612000ED8348 /* PercentageCalculatorUITest.swift */; };
+		FA7C4E241D62646000ED8348 /* PercentageCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C4E231D62646000ED8348 /* PercentageCalculatorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		22325BC91C62395E006879FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22325BAC1C62395E006879FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22325BB31C62395E006879FF;
+			remoteInfo = PercentageCalculator;
+		};
+		FA7C4E261D62646000ED8348 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 22325BAC1C62395E006879FF /* Project object */;
 			proxyType = 1;
@@ -36,6 +45,10 @@
 		22325BC81C62395E006879FF /* PercentageCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PercentageCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22325BCC1C62395E006879FF /* PercentageCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageCalculatorTests.swift; sourceTree = "<group>"; };
 		22325BCE1C62395E006879FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7C4E1A1D62612000ED8348 /* PercentageCalculatorUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageCalculatorUITest.swift; sourceTree = "<group>"; };
+		FA7C4E211D62646000ED8348 /* PercentageCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PercentageCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7C4E231D62646000ED8348 /* PercentageCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageCalculatorUITests.swift; sourceTree = "<group>"; };
+		FA7C4E251D62646000ED8348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +66,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA7C4E1E1D62646000ED8348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		22325BAB1C62395E006879FF = {
 			isa = PBXGroup;
 			children = (
+				FA7C4E1C1D62640800ED8348 /* PercentageCalculatorUITests */,
 				22325BB61C62395E006879FF /* PercentageCalculator */,
 				22325BCB1C62395E006879FF /* PercentageCalculatorTests */,
+				FA7C4E221D62646000ED8348 /* PercentageCalculatorUITests */,
 				22325BB51C62395E006879FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +92,7 @@
 			children = (
 				22325BB41C62395E006879FF /* PercentageCalculator.app */,
 				22325BC81C62395E006879FF /* PercentageCalculatorTests.xctest */,
+				FA7C4E211D62646000ED8348 /* PercentageCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +117,24 @@
 				22325BCE1C62395E006879FF /* Info.plist */,
 			);
 			path = PercentageCalculatorTests;
+			sourceTree = "<group>";
+		};
+		FA7C4E1C1D62640800ED8348 /* PercentageCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C4E1A1D62612000ED8348 /* PercentageCalculatorUITest.swift */,
+			);
+			name = PercentageCalculatorUITests;
+			path = PercentageCalculatorTests;
+			sourceTree = "<group>";
+		};
+		FA7C4E221D62646000ED8348 /* PercentageCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C4E231D62646000ED8348 /* PercentageCalculatorUITests.swift */,
+				FA7C4E251D62646000ED8348 /* Info.plist */,
+			);
+			path = PercentageCalculatorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,13 +175,31 @@
 			productReference = 22325BC81C62395E006879FF /* PercentageCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FA7C4E201D62646000ED8348 /* PercentageCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7C4E281D62646000ED8348 /* Build configuration list for PBXNativeTarget "PercentageCalculatorUITests" */;
+			buildPhases = (
+				FA7C4E1D1D62646000ED8348 /* Sources */,
+				FA7C4E1E1D62646000ED8348 /* Frameworks */,
+				FA7C4E1F1D62646000ED8348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7C4E271D62646000ED8348 /* PBXTargetDependency */,
+			);
+			name = PercentageCalculatorUITests;
+			productName = PercentageCalculatorUITests;
+			productReference = FA7C4E211D62646000ED8348 /* PercentageCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		22325BAC1C62395E006879FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "App Coda";
 				TargetAttributes = {
@@ -149,6 +208,10 @@
 					};
 					22325BC71C62395E006879FF = {
 						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 22325BB31C62395E006879FF;
+					};
+					FA7C4E201D62646000ED8348 = {
+						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 22325BB31C62395E006879FF;
 					};
 				};
@@ -168,6 +231,7 @@
 			targets = (
 				22325BB31C62395E006879FF /* PercentageCalculator */,
 				22325BC71C62395E006879FF /* PercentageCalculatorTests */,
+				FA7C4E201D62646000ED8348 /* PercentageCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +254,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA7C4E1F1D62646000ED8348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,7 +277,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7C4E1B1D62612000ED8348 /* PercentageCalculatorUITest.swift in Sources */,
 				22325BCD1C62395E006879FF /* PercentageCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7C4E1D1D62646000ED8348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7C4E241D62646000ED8348 /* PercentageCalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +297,11 @@
 			isa = PBXTargetDependency;
 			target = 22325BB31C62395E006879FF /* PercentageCalculator */;
 			targetProxy = 22325BC91C62395E006879FF /* PBXContainerItemProxy */;
+		};
+		FA7C4E271D62646000ED8348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22325BB31C62395E006879FF /* PercentageCalculator */;
+			targetProxy = FA7C4E261D62646000ED8348 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -367,6 +452,32 @@
 			};
 			name = Release;
 		};
+		FA7C4E291D62646000ED8348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = PercentageCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianledbetter.bled.PercentageCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PercentageCalculator;
+			};
+			name = Debug;
+		};
+		FA7C4E2A1D62646000ED8348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = PercentageCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianledbetter.bled.PercentageCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PercentageCalculator;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -386,12 +497,22 @@
 				22325BD31C62395E006879FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22325BD41C62395E006879FF /* Build configuration list for PBXNativeTarget "PercentageCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22325BD51C62395E006879FF /* Debug */,
 				22325BD61C62395E006879FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7C4E281D62646000ED8348 /* Build configuration list for PBXNativeTarget "PercentageCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7C4E291D62646000ED8348 /* Debug */,
+				FA7C4E2A1D62646000ED8348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
